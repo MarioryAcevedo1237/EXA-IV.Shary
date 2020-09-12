@@ -55,6 +55,7 @@ aside{
     background-color:lavender   ;
 	float:left;
 	height:500px;
+	width: 215px;
 	margin-top:10px;
 
 }
@@ -66,15 +67,32 @@ section{
 	margin-top:10px;
 border: mediumaquamarine 8px inset; 
 }
+	p{
+font-family: "Segoe UI";
+	}
+	ol{
+		color: #B8860B;
+	}
+	figcaption{
+		color: #32CD32;
+		font-size: 24px;
+	}
+hgroup{
+	color: darkblue;
+	font-size: 18px;
+	font-family: cursive;
+}
 #foot1{
-	background-color:lightseagreen;
+	background-color: #48D1CC;
 	text-align:center;
 	color: white;
 } 
 blockquote{
-	color:black;
+	color:navy;
 	background-color:white;
   border: 1px solid;
-  border-top-left-radius: 30px;
+  border-top--radius: 10px;
   border-bottom-right-radius: 50px;
 }
+
+
