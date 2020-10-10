@@ -1,8 +1,10 @@
     body {
 	  background-image:url("1.jpg");
+
 	}
+}
 /* Cabecera */
-header {background:  teal; 
+header {
 	text-align:center;
 	font-family: "Latin Modern Roman 10";
 	margin:15px auto;
@@ -11,7 +13,7 @@ header {background:  teal;
 	color: white;
 	padding:5px;
 	padding: 3px 10px;
-  border:transparent 5px solid;
+  border:white  5px solid;
   border-radius: 20px;
 }
 	header h2 {text-align: left; color: white; padding: 0.001em; font-size: 1.1em ;font-style: bold;
@@ -42,8 +44,6 @@ ul {
   	text-decoration: none;
   }
   a:hover{
-  	color: white;
-  	background-color: gray;
   	font-size: 21px; 
   	font-family: bold;
   }
