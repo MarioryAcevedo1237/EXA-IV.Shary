@@ -2,27 +2,25 @@
 <html>
 <head>
 	<title>Validacion de formulario</title>
-	<script type="text/javascript">
+	<script>
 		function comprobarClave(){
-			clave1= document.f1.clave1.value
-			clave2= document.f2.clave1.value
+			clave1 = document.f1.clave1.value
+			clave2 = document.f2.clave2.value
 
-			if (clave1 == "Mariory" && clave2 =="Acevedo") {
-				alert("Los datos coninciden..\n Bienvenido");
+			if (clave1 == "mariory" && clave2 =="acevedo"){
+				alert("Los datos Coinciden...\n Bienvenido");
 				var href = "menu.html";
 				window.location=href;
-			}
+				}
 
 			else{
-				alert("Los datos son distintos..\n Intentalo nuevamente.");
-				var href == "index.html";
+				alert("Los datos son distintos...\nIntentalo nuevamente.");
+				var href = "index.html";
 				window.location=href;
 			};
-
 		}
 </script>
 </head>
-
 <body>
 <h1> Validar  si la contraseña y la repeticion de constraseñas son iguales</h1>
 <br>
