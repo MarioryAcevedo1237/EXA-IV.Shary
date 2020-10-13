@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario de registro</title>
+<link rel="stylesheet" type="text/css" href="piña.css"/>
+<link rel="stylesheet" type="text/css" href="dcss\uva.css"/>
+</head>
+<body>
+<header>
+<div id="logotipo">
+<img src="2.jpg" width="100" height="80" align="right"/>
+</div>
+  <h2>Este es el sitio web de Pharmadus Botanicals</h2> <h1>Pharmadus Botanicals</h1>
+  </header>
+  <nav>
+  <ul>
+  <li id="pio"><a href="menu.html">Home</a></li>
+  &nbsp;
+  <li id="pio"><a href="aboutwe.html">About company</a></li>
+  &nbsp;
+  <li id="pio"><a href="productsand.html">Products and service </a></li>	
+  &nbsp;
+  <li id="pio"><a href="contactanos.html">Contact us  </a></li>
+  &nbsp;
+  <li id="pio"><a href="registro.html">Registro</a></li>
+  &nbsp;
+  </ul>
+<div class="group">
+<form action="registro.php" method="post">
+<h2><em>Formulario de resgistro</em></h2>
+<label for="dpi">Dpi<span><em>(requerido)</em></span></label>
+<input type="text" name="dpi" class="form-input" required/>
+<br>
+<label for="nombre">Nombre<span><em>(requerido)</em></span></label>
+<input type="text" name="nombre" class="form-input" required/>
+<br>
+<label for="apellido">Apellido<span><em>(requerido)</em></span></label>
+<input type="text" name="apellido" class="form-input" required/>
+<br>
+<label for="sueldo">Sueldo<span><em>(requerido)</em></span></label>
+<input type="text" name="Sueldo" class="form-input" required/>
+<br>
+<label for="edad">Edad<span><em>(requerido)</em></span></label>
+<input type="text" name="Edad" class="form-input" required/>
+<br>
+<label for="gmail">Gmail<span><em>(requerido)</em></span></label>
+<input type="text" name="Gmail" class="form-input" required/>
+<br>
+<input type="reset" value="Borrar" />
+<button onClick="alert('¡Hola, es un gusto atenderle!')">Saludar</button>
+Comentarios:
+<br>
+<textarea name=comentario rows=5 cols=54 wrap=virtual></textarea><p>
+<center><input type="image" src="1.png"  height="80" class="form-btn"  name="suscribirse"  value="suscribirse"/> </center>
+</p>
+</form>
+</div>
+<footer id="foot1">
+<p><address>Mariory Sharisa Acevedo Santos  2020, Villa Nueva, Guatemala-C. 2020. Pharmadus Botanicals</address><small>Derechos Reservados</small></p>
+</footer>
+</body>
+</html>

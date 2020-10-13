@@ -1,8 +1,5 @@
     body {
-	  background-image:url("1.jpg");
-
 	}
-}
 /* Cabecera */
 header {
 	text-align:center;
@@ -10,13 +7,12 @@ header {
 	margin:15px auto;
 	width:auto;
 	height:auto;
-	color: white;
+	color: teal;
 	padding:5px;
 	padding: 3px 10px;
-  border:white  5px solid;
-  border-radius: 20px;
+  border:teal  5px solid;
 }
-	header h2 {text-align: left; color: white; padding: 0.001em; font-size: 1.1em ;font-style: bold;
+	header h2 {text-align: left; color: black; padding: 0.001em; font-size: 1.1em ;font-family: "Segoe UI";
 }
 /* nav */
 #pio{
@@ -35,9 +31,9 @@ ul {
   border: 1px solid;
   list-style: none;
   font-size: 1.1em ;
-  text-align: center; color: transparent;
+  text-align: center; 
   min-height: 2em;
-  border:white 3px solid;
+  border:#48D1CC 3px solid;
   }
   a{
   	color: blue;
@@ -52,7 +48,7 @@ ul {
   	background-color: yellow;
   }
 aside{
-    background-color:lavender   ;
+    background-color:lavender;
 	float:left;
 	height:500px;
 	width: 200px;

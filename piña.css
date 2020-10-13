@@ -1,34 +1,40 @@
 
 body{
-	background-color:black;
+	background-image: url(yu.png);
 }
 form{
-  padding: 60px;
+  padding: 100px;
   max-width: 400px;
-  background-color: #708090;
+  
+  background-color: #D7DBDD ;
   margin: 0 auto;
   font-family: cursive;
   color: white; 
 }
-form input{
+form input, button{
   margin-bottom: 15px;
   font-family: sans-serif;
   width: 100%;
-  padding: 30px;
+  padding: 10px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; 
   border: none; 
   color: #2F4F4F; 
-  background-color: #DCDCDC;
+  background-color: white;
   font-size: 1em;
   resize: horizontal; 
 }
 h1{
-	color:#FFD700;
+	color:#154360;
 }
 p{
-font: message-box;
-color:#FFFF00;
+font: message-box, bold;
+color:#4A235A;
+}
+label{
+color:  #4A235A ;
+}
+em{
+  color: white;
 }
 
-  
