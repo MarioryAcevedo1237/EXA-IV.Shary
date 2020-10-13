@@ -1,40 +1,40 @@
-
 body{
-	background-image: url(yu.png);
+background-image: url(we.jpg);
+
 }
 form{
   padding: 100px;
-  max-width: 400px;
-  
-  background-color: #D7DBDD ;
+  max-width: 700px;
+  background-color: white ;
+   opacity: 0.5;
   margin: 0 auto;
   font-family: cursive;
   color: white; 
 }
-form input, button{
+form input, button, textarea{
   margin-bottom: 15px;
-  font-family: sans-serif;
   width: 100%;
   padding: 10px;
+  font-family: cursive;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; 
   border: none; 
-  color: #2F4F4F; 
-  background-color: white;
+  color:black ; 
+  background-color: #8EEAF9  ;
   font-size: 1em;
-  resize: horizontal; 
+ 
 }
 h1{
-	color:#154360;
+	color:white;
 }
 p{
 font: message-box, bold;
 color:#4A235A;
 }
 label{
-color:  #4A235A ;
+color:  #9A7D0A ;
 }
 em{
-  color: white;
+  color: black;
 }
 
